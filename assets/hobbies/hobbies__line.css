@@ -1,0 +1,45 @@
+/*SECCION HOBBIES -HIJO*/
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap:1rem
+}
+.hobbies__box{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    padding: 1rem;
+}
+.hobbies__box ul{
+    position: absolute;
+    bottom: 1rem;
+}
+.hobbies__name{
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+@media (max-width:768px) {
+    .hobbies__line{
+        justify-content: center;
+    }
+    .hobbies__box{
+        width:25%;
+        height: 7rem;
+        margin: 1rem;
+    }
+}
+
+@media (max-width:425px) {
+    .hobbies__line{
+        gap:1rew;
+    }
+    .hobbies__box{
+        width:40%;
+        margin: 0;
+        padding: 0.5rem;
+    }
+}

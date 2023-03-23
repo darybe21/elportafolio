@@ -1,0 +1,20 @@
+/*SECCION CONTACTO PADRE*/
+.formcontato{
+    padding: 2rem;
+}
+.formcontato__contacto{
+    display:flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+    position: relative;
+}
+@media screen  and (max-width:768px) {
+    .formcontato{
+        padding: 2rem;
+    }
+    .formcontato__contacto{
+        padding-top: 0;
+    }
+    
+}

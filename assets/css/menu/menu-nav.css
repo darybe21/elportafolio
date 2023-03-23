@@ -1,0 +1,51 @@
+/*menu de encabezado - menu nav ubicado en la parte suprior derecha */
+/*les asigna igual caracteristicas a menu__list y menu-nav */
+.menu__list, .menu-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 1rem;
+}
+/*les asigna el color a las letras  */
+/*les asigna el color a las letras de email de contacto */
+.menu__list__item a, .menu__list__item__contato {
+    
+    color:var(--cor-de-link);
+}
+
+.menu__list__item a{
+    font-weight: bold;
+}
+/*hover permite cambio de color de letras cuando se pasa el cursor */
+.menu__list__item a:hover{
+    color:var(--color-primario);
+}
+
+.menu__list__item__contato a:hover{
+    color: var(--color-primario)
+}
+/*inicialmente y por diseño no se considera el email contacto */
+.menu__list__item__contato{
+    display:none;
+}
+/*definicion de atributos para pc escritorio, tablet y movil */
+@media screen and (max-width: 768px) {
+    .menu__list__item a{
+        display:none;
+    }
+    .menu__list__item__contato {
+        display: block;
+        font-weight: bold;
+
+    }
+
+} 
+
+@media screen and (max-width: 425px) {
+    .menu__list__item__contato {
+        font-weight: 500;
+        font-size: .6rem;
+    }
+}
+    

@@ -1,0 +1,13 @@
+/*SECCION FORMACION ACADEMICA - ICONOS - PADRE*/
+.academic {
+    padding: 2rem;
+    background-color: var(--color-sexto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.academic__title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

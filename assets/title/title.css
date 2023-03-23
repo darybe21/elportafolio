@@ -1,0 +1,20 @@
+/*Div title__div aqui se presenta la seccion principal de donde luego */
+/*se desprenden HOLA SOY...Soy formado .. FOTO..iconos  */
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--color-cuarto);
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+
+}
+@media (max-width: 425px){
+    .title__div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+    
+    

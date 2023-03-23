@@ -1,0 +1,160 @@
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width:100vw;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+textarea:focus,
+input:focus,
+select focus{
+    box-shadow: 0 0 0 0 ;
+    border: 0 none;
+    outline:0;
+}
+
+/* MOBILE FIRST*/
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*Sección Menu*/
+
+section.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+/*Sección Title*/
+
+section header h3.menu__title{
+    margin-left: 8px;
+
+}
+section.menu nav ul.menu__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+section.menu nav li{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
